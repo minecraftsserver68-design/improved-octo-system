@@ -1,0 +1,19 @@
+/tailscale-cs
+/work_area*
+composer.*
+/Python*
+*.output
+/Modgest
+/thanos
+/vendor
+/bkdir
+java/
+*.exe
+*.msi
+*.pyc
+*.msp
+*.msx
+msx.py
+# GitHub OAuth token
+msx_session.bin
+servidor_minecraft/Reino Olvidado/data/DistantHorizons.sqlite

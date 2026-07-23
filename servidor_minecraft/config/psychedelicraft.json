@@ -1,0 +1,168 @@
+{
+  "balancing": {
+    "randomTicksUntilRiftSpawn": 216000,
+    "dryingTableTickDuration": 19200,
+    "ironDryingTableTickDuration": 14400,
+    "slurryHardeningTime": 36000,
+    "enableHarmonium": false,
+    "enableRiftJars": false,
+    "disableMolotovs": false,
+    "worldGeneration": {
+      "juniper": {
+        "enabled": true,
+        "spawnableBiomes": {}
+      },
+      "cannabis": {
+        "enabled": true,
+        "spawnableBiomes": {}
+      },
+      "hop": {
+        "enabled": true,
+        "spawnableBiomes": {}
+      },
+      "tobacco": {
+        "enabled": true,
+        "spawnableBiomes": {}
+      },
+      "morningGlories": {
+        "enabled": true,
+        "spawnableBiomes": {}
+      },
+      "belladonna": {
+        "enabled": true,
+        "spawnableBiomes": {}
+      },
+      "jimsonweed": {
+        "enabled": true,
+        "spawnableBiomes": {}
+      },
+      "tomato": {
+        "enabled": true,
+        "spawnableBiomes": {}
+      },
+      "coffea": {
+        "enabled": true,
+        "spawnableBiomes": {}
+      },
+      "coca": {
+        "enabled": true,
+        "spawnableBiomes": {}
+      },
+      "peyote": {
+        "enabled": true,
+        "spawnableBiomes": {}
+      },
+      "farmerDrugDeals": true,
+      "dungeonChests": true,
+      "villageChests": true
+    },
+    "fluidAttributes": {
+      "alcInfoWheatHop": {
+        "ticksPerFermentation": 36000,
+        "ticksPerDistillation": 72000,
+        "ticksPerMaturation": 120000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoKava": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 48000,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoWheat": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 48000,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoCorn": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 48000,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoPotato": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 48000,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoTomato": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 48000,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoAgave": {
+        "ticksPerFermentation": 36000,
+        "ticksPerDistillation": 96000,
+        "ticksPerMaturation": 48000,
+        "ticksUntilAcetification": 108000
+      },
+      "alcInfoRedGrapes": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 48000,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoRice": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 48000,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoJuniper": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 48000,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoSugarCane": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 48000,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoHoney": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 48000,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoApple": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 48000,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoPineapple": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 48000,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoBanana": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 48000,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoMilk": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 48000,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      },
+      "alcInfoFlowerExtract": {
+        "ticksPerFermentation": 48000,
+        "ticksPerDistillation": 1200,
+        "ticksPerMaturation": 36000,
+        "ticksUntilAcetification": 36000
+      }
+    },
+    "messageDistortion": {
+      "incoming": true,
+      "outgoing": true
+    }
+  }
+}

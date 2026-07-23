@@ -1,0 +1,52 @@
+
+[VaultSettings]
+	#Vault unlocking duration.
+	#Range: > 1
+	vault_unlocking_duration = 10
+	#Vault ejecting interval.
+	#Range: > 1
+	vault_ejecting_interval = 20
+	#Vault close delay.
+	#Range: > 1
+	vault_close_delay = 20
+	#Vault display item switch interval.
+	#Range: > 1
+	vault_display_item_switch_interval = 20
+	#Vault item rotation speed.
+	#Range: 1.0 ~ 2.147483647E9
+	vault_item_rotation_speed = 2.0
+
+[SpawnerSettings]
+	#Range: > 1
+	spawner_cooldown_ominous = 10
+	#Range: > 1
+	spawner_loot_drop_interval = 10
+	#Range: > 1
+	spawner_default_base_mobs_per_wave = 3
+	#Range: > 1
+	spawner_default_base_total_mobs = 6
+	#Range: > 1
+	spawner_mobs_added_per_player = 1
+	#Range: > 1
+	spawner_total_added_per_player = 2
+	#Range: > 1
+	spawner_breeze_base_mobs_per_wave = 1
+	#Range: > 1
+	spawner_breeze_base_total_mobs = 3
+	#Range: > 1
+	breeze_spawner_mobs_added_per_player = 1
+	#Range: > 1
+	breeze_spawner_total_added_per_player = 2
+
+[BossSpawnerSettings]
+	#Range: > 1
+	boss_spawner_spawn_delay = 60
+	#Range: > 1
+	boss_spawner_loot_drop_interval = 10
+	#Range: > 1
+	boss_spawner_base_boss_hp = 200
+	#Range: 1.0 ~ 1.7976931348623157E308
+	boss_spawner_hp_multiplier_per_player = 1.5
+	#Range: > 1
+	boss_spawner_max_cooldown_ticks = 36000
+

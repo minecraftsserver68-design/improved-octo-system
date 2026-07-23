@@ -918,3 +918,103 @@ com.google.gson.JsonSyntaxException: Expected text.owo.itemGroup.tab_template to
 [23Jul2026 22:32:57.580] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
 [23Jul2026 22:32:57.587] [Server thread/WARN] [ModernFix/]: Dedicated server took 78.055 seconds to load
 [23Jul2026 22:32:59.586] [modfixer-watchdog/INFO] [ModFixer/]: [ModFixer][State] reason=level_load LaunchPlugin=ON AntiSpam=ON LibFix=OFF RuntimeActive=true ThrottlePermille=8 EnvPressure=30 mask=11
+[23Jul2026 22:35:37.140] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[23Jul2026 22:35:37.269] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: JuanArcJL12[/127.100.147.226:40715] logged in with entity id 1030 at (192.50322932301637, 71.0, -729.8709884408826)
+[23Jul2026 22:35:37.282] [Server thread/INFO] [Fabwork::SERVER/]: Sending mod list to JuanArcJL12[/127.100.147.226:40715]
+[23Jul2026 22:35:37.399] [Server thread/WARN] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Spell Configuration file "global_config.json", outside of namespaced directory, will be ignored!
+[23Jul2026 22:35:37.452] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player JuanArcJL12
+[23Jul2026 22:35:37.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JuanArcJL12 joined the game
+[23Jul2026 22:35:37.681] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 rookie
+[23Jul2026 22:35:37.683] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 expert
+[23Jul2026 22:35:37.684] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 expert
+[23Jul2026 22:35:37.760] [Netty Epoll Server IO #3/INFO] [Fabwork::SERVER/]: Got mod list from JuanArcJL12[/127.100.147.226:40715]:  [psychedelicraft] (1)
+[23Jul2026 22:35:37.821] [Server thread/INFO] [Jade/]: Syncing config to JuanArcJL12 (62d27574-3947-30ff-acda-f37c70e6703b)
+[23Jul2026 22:35:37.839] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [JuanArcJL12] joined.
+[23Jul2026 22:35:40.653] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of JuanArcJL12 (20)
+[23Jul2026 22:35:40.656] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to JuanArcJL12
+[23Jul2026 22:35:40.877] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 62d27574-3947-30ff-acda-f37c70e6703b was loaded
+[23Jul2026 22:35:40.884] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [JuanArcJL12]
+[23Jul2026 22:35:40.884] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [JuanArcJL12]
+[23Jul2026 22:35:40.911] [Server thread/INFO] [server_waypoint_core/]: client join with protocol version: 0
+[23Jul2026 22:35:41.566] [Server thread/INFO] [Fabwork::SERVER/]: Connection succeeded with 1 syncronised mod(s) [psychedelicraft]
+[23Jul2026 22:36:18.796] [DH-World Gen Thread[0]/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[23Jul2026 22:36:49.736] [DH-World Gen Thread[0]/INFO] [DistantHorizons-DistantHorizons-loaderCommon.forge.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion/]: WorldGen requiring [minecraft:structure_starts] is outside the expected range. Returning EMPTY chunk.
+[23Jul2026 22:36:53.831] [DH-World Gen Thread[1]/WARN] [lithostitched/]: Non-existent template pool reference: minecraft:
+[23Jul2026 22:36:53.835] [DH-World Gen Thread[1]/WARN] [lithostitched/]: Non-existent template pool reference: minecraft:
+[23Jul2026 22:36:56.002] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: JuanArcJL12 lost connection: Disconnected
+[23Jul2026 22:36:56.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JuanArcJL12 left the game
+[23Jul2026 22:36:56.008] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 62d27574-3947-30ff-acda-f37c70e6703b was unloaded
+[23Jul2026 22:36:56.013] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client JuanArcJL12
+[23Jul2026 22:36:56.015] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [JuanArcJL12] disconnected.
+[23Jul2026 22:37:07.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[23Jul2026 22:37:07.191] [Server thread/INFO] [ModFixer/]: [ModFixer][State] reason=server_stop LaunchPlugin=ON AntiSpam=ON LibFix=OFF RuntimeActive=false ThrottlePermille=9 EnvPressure=34 mask=3
+[23Jul2026 22:37:07.193] [Server thread/INFO] [server_waypoint_core/]: Saved config file: /workspaces/improved-octo-system/servidor_minecraft/defaultconfigs/server_waypoint/config.json
+[23Jul2026 22:37:07.205] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[23Jul2026 22:37:07.207] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[23Jul2026 22:37:07.207] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[23Jul2026 22:37:07.208] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[23Jul2026 22:37:07.208] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[23Jul2026 22:37:07.209] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Shutting down world generator thread pool...
+[23Jul2026 22:37:07.208] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[23Jul2026 22:37:07.208] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[23Jul2026 22:37:07.210] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Shutting down world generator thread pool...
+[23Jul2026 22:37:07.211] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown with [0] incomplete tasks.
+[23Jul2026 22:37:07.210] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Shutting down world generator thread pool...
+[23Jul2026 22:37:07.211] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown with [0] incomplete tasks.
+[23Jul2026 22:37:07.209] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[23Jul2026 22:37:07.212] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: [BatchGenerator] shutting down...
+[23Jul2026 22:37:07.208] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[23Jul2026 22:37:07.213] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Shutting down world generator thread pool...
+[23Jul2026 22:37:07.213] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown with [0] incomplete tasks.
+[23Jul2026 22:37:07.215] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: [BatchGenerator] shutting down...
+[23Jul2026 22:37:07.215] [level shutdown/INFO] [DistantHorizons-LOD World Gen/]: Closing [BatchGenerationEnvironment]
+[23Jul2026 22:37:07.210] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown with [0] incomplete tasks.
+[23Jul2026 22:37:07.213] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[23Jul2026 22:37:07.213] [level shutdown/INFO] [DistantHorizons-LOD World Gen/]: Closing [BatchGenerationEnvironment]
+[23Jul2026 22:37:07.216] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: [BatchGenerator] shutting down...
+[23Jul2026 22:37:07.217] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[23Jul2026 22:37:07.217] [level shutdown/INFO] [DistantHorizons-LOD World Gen/]: Closing [BatchGenerationEnvironment]
+[23Jul2026 22:37:07.217] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[23Jul2026 22:37:07.212] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: [BatchGenerator] shutting down...
+[23Jul2026 22:37:07.217] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Shutting down world generator thread pool...
+[23Jul2026 22:37:07.218] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown with [0] incomplete tasks.
+[23Jul2026 22:37:07.219] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: [BatchGenerator] shutting down...
+[23Jul2026 22:37:07.217] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[Reino Olvidado]@minecraft:the_nether}].
+[23Jul2026 22:37:07.219] [level shutdown/INFO] [DistantHorizons-LOD World Gen/]: Closing [BatchGenerationEnvironment]
+[23Jul2026 22:37:07.219] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[23Jul2026 22:37:07.219] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[Reino Olvidado]@aether:the_aether}].
+[23Jul2026 22:37:07.221] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[23Jul2026 22:37:07.218] [level shutdown/INFO] [DistantHorizons-LOD World Gen/]: Closing [BatchGenerationEnvironment]
+[23Jul2026 22:37:07.221] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[23Jul2026 22:37:07.221] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[Reino Olvidado]@irons_spellbooks:pocket_dimension}].
+[23Jul2026 22:37:07.222] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[Reino Olvidado]@minecraft:the_end}].
+[23Jul2026 22:37:07.221] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[Reino Olvidado]@minecraft:overworld}].
+[23Jul2026 22:37:07.222] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
+[23Jul2026 22:37:07.223] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
+[23Jul2026 22:37:07.223] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker/]: Shutting down PriorityTaskPicker thread pool...
+[23Jul2026 22:37:07.230] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing all [5] database connections...
+[23Jul2026 22:37:07.231] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./Reino Olvidado/data/DistantHorizons.sqlite]
+[23Jul2026 22:37:07.268] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./Reino Olvidado/dimensions/aether/the_aether/data/DistantHorizons.sqlite]
+[23Jul2026 22:37:07.269] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./Reino Olvidado/DIM1/data/DistantHorizons.sqlite]
+[23Jul2026 22:37:07.270] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./Reino Olvidado/dimensions/irons_spellbooks/pocket_dimension/data/DistantHorizons.sqlite]
+[23Jul2026 22:37:07.270] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./Reino Olvidado/DIM-1/data/DistantHorizons.sqlite]
+[23Jul2026 22:37:08.058] [Immersive Optimization Worker/INFO] [Immersive Optimization/]: Shutting down Immersive Optimization worker
+[23Jul2026 22:37:08.059] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[23Jul2026 22:37:08.062] [Server thread/INFO] [luckperms/]: Closing storage...
+[23Jul2026 22:37:08.083] [Server thread/INFO] [luckperms/]: Goodbye!
+[23Jul2026 22:37:08.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Jul2026 22:37:08.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Jul2026 22:37:08.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Jul2026 22:37:08.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Reino Olvidado]'/minecraft:overworld
+[23Jul2026 22:37:08.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Reino Olvidado]'/aether:the_aether
+[23Jul2026 22:37:08.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Reino Olvidado]'/minecraft:the_end
+[23Jul2026 22:37:08.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Reino Olvidado]'/minecraft:the_nether
+[23Jul2026 22:37:08.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Reino Olvidado]'/irons_spellbooks:pocket_dimension
+[23Jul2026 22:37:08.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Reino Olvidado): All chunks are saved
+[23Jul2026 22:37:08.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[23Jul2026 22:37:08.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Jul2026 22:37:08.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Jul2026 22:37:08.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
+[23Jul2026 22:37:08.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23Jul2026 22:37:08.430] [Server thread/INFO] [net.petemc.undeadnights.UndeadNights/]: Loading undeadnights server config
+[23Jul2026 22:37:08.435] [Server thread/INFO] [net.petemc.mutantszombies.MutantsZombies/]: Loading mutantszombies server config

@@ -1,0 +1,46 @@
+#!/bin/bash
+
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+RED='\033[0;31m'
+NC='\033[0m'
+
+echo -e "${GREEN}========================================${NC}"
+echo -e "${GREEN}  Iniciando servidor Minecraft + Playit  ${NC}"
+echo -e "${GREEN}========================================${NC}"
+
+cd /workspaces/improved-octo-system || exit 1
+
+# Matar procesos anteriores
+sudo pkill -f "playit" 2>/dev/null
+docker stop $(docker ps -q --filter ancestor=ghcr.io/playit-cloud/playit-agent:1.0) 2>/dev/null
+
+# 1. Iniciar Playit en segundo plano (Docker)
+echo -e "${YELLOW}🔗 Iniciando Playit...${NC}"
+docker run --rm -d --net=host -e SECRET_KEY=d8af816db603180faaf3cc68751ac72e5d22ab3763204f4f4b9ef2a8a377a773 ghcr.io/playit-cloud/playit-agent:1.0
+
+sleep 3
+
+if docker ps | grep -q "playit-cloud/playit-agent"; then
+    echo -e "${GREEN}✅ Playit iniciado correctamente${NC}"
+else
+    echo -e "${RED}❌ Error: Playit no pudo iniciarse${NC}"
+fi
+
+# 2. Iniciar el servidor de Minecraft (en primer plano, muestra logs)
+echo -e "${YELLOW}⛏️ Iniciando servidor de Minecraft...${NC}"
+echo -e "${GREEN}✅ Servidor iniciado. Los logs aparecerán a continuación.${NC}"
+echo -e "${YELLOW}📌 Para detener: presiona Ctrl+C en esta terminal${NC}"
+echo ""
+
+cd /workspaces/improved-octo-system/servidor_minecraft || exit 1
+
+if [ -f "run.sh" ]; then
+    ./run.sh
+elif [ -f "forge-1.20.1-47.4.22.jar" ]; then
+    java -Xmx12G -Xms2G -jar forge-1.20.1-47.4.22.jar nogui
+else
+    echo -e "${RED}❌ No se encontró el archivo de inicio del servidor${NC}"
+    ls -la
+    exit 1
+fi
